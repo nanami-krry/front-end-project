@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+/* 导航栏 */
+.header {
+    
+    border-top: 3px solid #ff8500;
+    background-color: rgba(53, 101, 225,0.1);
+    width: 100%;
+    height: 50px;
+    
+}
+.header .nav {
+    /* margin: 20px auto; */
+    text-align: center;
+}
+.header .nav a {
+    padding: 0 30px;
+    font-size: 18px;
+    color: #050505;
+    line-height: 50px;
+}
+.header .nav a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+
+.on {
+    position: relative;
+    padding-top: 135px;
+    background-image: url(../images/zswz_about01.png);
+    background-position: 120px 50px;
+    background-repeat: no-repeat;
+}
+.on .logo{
+    position: absolute;
+    float: left;
+    left: 30px;
+    top:5px
+}
+.on .logo img{
+    width: 50px;
+    height: 50px;
+    vertical-align: bottom;
+}
+.on .logo i{
+    font-size: 40px;
+}
+.on .one{   
+    font-size: 68px;
+    margin-right: 65px;
+    margin-left: 128px;  
+}
+.on li {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 24px;
+   
+}
+.on li a{
+    color: #000000;
+}
+.on li a:hover{
+    color: #00a4ff;
+}
+.on .xian{
+    margin-top: 20px;
+    width: 900px;
+    height: 30px;
+    background-color: rgba(53, 101, 225,0.1); 
+}
+.on .xx{
+    margin-left: 400px;
+    margin-top: 10px;
+    width: 900px;
+    height: 30px;
+    background-color: rgba(53, 101, 225,0.1);
+}
+
+.app {
+    position: relative;
+    margin-top: 250px;
+    width: 100%;
+    height: 700px;
+    background-color: rgba(31, 51, 197, 0.471);
+}
+.app h3{
+    display: inline-block;
+    font-size: 6.25rem;
+    color: #fff;
+    transform: translate(120px,90px)
+}
+.app h4{
+    display: inline-block;
+    transform: translate(-275px,200px);
+    color: #fff;
+}
+.app hr{
+    border: 0;
+    border-bottom: 2px solid #fff;
+    transform: translateY(350px);
+}
+.app .scroll {
+    position: absolute; 
+    display: inline-block;
+    right: 30px;
+    top: -30px;
+    width: 900px;
+    height: 650px;
+}
+ 
+.app .scroll .img {
+    display: none;
+    width: 900px;
+    height: 650px;
+}
+ 
+.app .scroll .current {
+    display: block;
+}
+ 
+.scroll .lf {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    background-image: url('../images/arrow.png');
+    background-position: -83px 0;
+    width: 41px;
+    height: 69px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+ 
+.scroll .lr {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    background-image: url('../images/arrow.png');
+    background-position: -123px 0;
+    width: 41px;
+    height: 69px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+ 
+.dots {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    width: 160px;
+}
+ 
+.dots>span {
+    display: inline-block;
+    /* box-sizing: border-box; */
+    width: 11px;
+    height: 11px;
+    border: 3px solid rgba(58, 57, 55, 0.859);
+    border-radius: 15px;
+    cursor: pointer;
+}
+ 
+.dots>span:not(:last-child) {
+    margin-right: 5px;
+}
+ 
+/* 小圆点的颜色 */
+.dots .square {
+    background: #c434bfe5;
+}
+.app .p img{
+    position: absolute;
+    top: -170px;
+    right: 50px;
+}
+/* 页脚 */
+/* .foot {
+    position: relative;
+    border-top:20px solid #ccc;
+    width: 100%;
+    height: 300px;
+    background-color:  rgba(53, 101, 225,0.1);
+}
+.foot .logo{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.foot .logo img{
+    width: 35px;
+    height: 35px;
+    vertical-align: bottom;
+}
+.foot .logo i{
+    font-size: 30px;
+}
+.foot h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.foot .lianjie{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.foot .lianjie img{
+    height: 30px;
+    width: 30px;
+    filter: hue-rotate(110deg);
+}
+.foot h4{
+    text-align: center;
+    margin-bottom: 10px;
+} */
+
+/* 页脚 */
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(53, 101, 225, 0.1);
+}
+
+.footer p {
+    float: left;
+    margin: 40px 0 0 50px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.footer .logo {
+    float: left;
+    position: relative;
+    top: 70px;
+    left: 200px;
+}
+
+.footer .logo img {
+    width: 50px;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+.footer .logo i {
+    font-size: 40px;
+}
+
+.footer ul {
+    float: right;
+    position: relative;
+    top: 65px;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.footer ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+}

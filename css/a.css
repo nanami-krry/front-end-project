@@ -1,0 +1,23 @@
+.on li:nth-child(2) a
+{
+    color: #00a4ff;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+.comment{
+    margin-top: 168px;
+    font-size: 18px;
+    color: #444444;
+}
+.comment p{
+    padding-bottom: 34px;
+    text-indent: 2em;
+    line-height: 36px !important;
+    font-family: "思源黑体";
+}
+.comment img{
+    border: #ccc 1px solid;
+    margin-bottom: 34px;
+}

@@ -1,0 +1,71 @@
+.on li:nth-child(3) a
+{
+    color: #00a4ff;
+}
+.comment{
+    margin-top: 168px;
+    background-image: url(../images/bgc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*  */
+.comment .one{
+    margin: 0 auto;
+    height: 244px;
+    width: 1000px;
+    border: 3px solid rgba(31, 51, 197, 0.5);
+    background-color: rgba(53, 101, 225,0.5);
+}
+.comment img{
+    float: left;
+    width: 200px;
+    height: 237.84px;
+    margin-right: 30px;
+}
+.comment p{
+    text-indent: 2em;
+    padding-top: 20px;
+    /* width: 900px; */
+    color: rgba(80, 66, 66, 0.899);
+}
+.comment h2{
+    padding-top: 20px;
+    color: #fff;
+}
+.comment .two{
+    margin: 30px auto;
+    height: 244px;
+    width: 1000px;
+    border: 3px solid rgba(31, 51, 197, 0.5);
+    background-color: rgba(53, 101, 225,0.5);
+   
+}
+.comment .three{ 
+    margin: 0 auto 30px auto;
+    height: 244px;
+    width: 1000px;
+    border: 3px solid rgba(31, 51, 197, 0.5);
+    background-color: rgba(53, 101, 225,0.5);
+    
+}
+.comment .four{
+    margin: 0 auto 30px auto;
+    height: 244px;
+    width: 1000px;
+    border: 3px solid rgba(31, 51, 197, 0.5);
+    background-color: rgba(53, 101, 225,0.5); 
+}
+.comment .five{
+    margin: 0 auto 30px auto;
+    height: 244px;
+    width: 1000px;
+    border: 3px solid rgba(31, 51, 197, 0.5);
+    background-color: rgba(53, 101, 225,0.5); 
+}
+.comment .six{
+    margin: 0 auto 30px auto;
+    height: 244px;
+    width: 1000px;
+    border: 3px solid rgba(31, 51, 197, 0.5);
+    background-color: rgba(53, 101, 225,0.5); 
+}
